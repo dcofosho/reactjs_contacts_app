@@ -42,7 +42,7 @@ body, .app {
 }
 
 .create-contact-avatar-input {
-  min-width: 60px;
+  width: 60px;
   height: 60px;
   background-color: white;
   background-image: url('./icons/person.svg');
@@ -185,18 +185,4 @@ body, .app {
   vertical-align: middle;
   cursor: pointer;
   outline: none;
-}
-
-.new-name-input{
-  width: 100%;
-  text-align: center;
-}
-
-.new-email-input{
-  width: 100%;
-  text-align: center;
-}
-.create-contact-button{
-  width: 100%;
-  text-align: center;
 }

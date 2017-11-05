@@ -28,7 +28,6 @@ class ListContacts extends Component {
 		showingContacts.sort(sortBy('name'))
 		return(
 			<div className='list-contacts'>
-				{JSON.stringify(this.state)}
 				<div className='list-contacts-top'>
 					<input
 						
